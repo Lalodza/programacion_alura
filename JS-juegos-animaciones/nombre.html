@@ -1,0 +1,56 @@
+<canvas width="800" height="400"></canvas>
+
+<script>
+    var pantalla = document.querySelector('canvas');
+    var pincel = pantalla.getContext('2d');
+    //160 por letra 80 de padding left and rigth ancho letra 40
+    pincel.fillStyle = '#5563f0';
+    pincel.fillRect(0,0,800,400);
+    //letra 'L'
+    pincel.fillStyle = '#ff5000';
+    pincel.beginPath();
+    pincel.moveTo(80,25);
+    pincel.lineTo(80,375);
+    pincel.lineTo(240,375);
+    pincel.lineTo(240,325);
+    pincel.lineTo(120,325);
+    pincel.lineTo(120,25);
+    pincel.fill();
+
+    /* letra 'A' */
+    pincel.beginPath();
+    pincel.moveTo(245,375);
+    pincel.lineTo(285,375);
+    pincel.lineTo(295,210);
+    pincel.lineTo(315,210);
+    pincel.lineTo(325,375);
+    pincel.lineTo(365,375);
+    pincel.lineTo(315,25);
+    pincel.lineTo(295,25);
+
+    pincel.fill();
+
+    /* letra 'L' */
+    pincel.beginPath();
+    pincel.moveTo(370,25);
+    pincel.lineTo(370,375);
+    pincel.lineTo(530,375);
+    pincel.lineTo(530,325);
+    pincel.lineTo(410,325);
+    pincel.lineTo(410,25);
+    pincel.fill();
+
+    /* letra 'O' */
+    pincel.beginPath();
+    pincel.moveTo(535,375);
+    pincel.lineTo(695,375);
+    pincel.lineTo(695,25);
+    pincel.lineTo(535,25);
+    pincel.fill();
+
+
+
+
+
+
+</script>
